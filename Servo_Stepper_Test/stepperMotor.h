@@ -3,7 +3,7 @@
 
 #include "Arduino.h"
 
-typedef enum 
+typedef enum
 {
   MOTOR_1,
   MOTOR_2,

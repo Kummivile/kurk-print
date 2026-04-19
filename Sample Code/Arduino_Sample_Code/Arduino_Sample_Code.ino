@@ -33,7 +33,7 @@ NOTE also that stepperMotor.cpp has been set up for 1/8 microstepping. Make sure
 So a total of 200 full steps for 360 degrees, multiplied by 8, we get 1600 */
 #define STEPS_PER_REVOLUTION 1600
 
-static int direction = 0;
+static int direction = 1;
 static bool isInitComplete = false;
 Servo myServo;
 
@@ -102,7 +102,3 @@ void loop()
     direction = !direction;
   }
 }
-
-
-
-
